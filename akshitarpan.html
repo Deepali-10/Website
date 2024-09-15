@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AyurSiddhi - Ayurvedic Center</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row py-2 px-lg-5">
+            <div class="col-lg-6 text-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <small><i class="fa fa-phone-alt mr-2"></i>9137971328</small>
+                    <small class="px-3">|</small>
+                    <small><i class="fa fa-envelope mr-2"></i>ayursiddhi3@gmail.com</small>
+                </div>
+            </div>
+            <div class="col-lg-6 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-primary px-2" href="https://www.facebook.com/">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>                   
+                    <a class="text-primary px-2" href="https://www.linkedin.com/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-primary px-2" href="https://www.instagram.com/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-primary pl-2" href="https://www.youtube.com/">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <h1 class="m-0 text-primary"><span class="text-dark"></span><img class="logo" src="img/logo.PNG" alt="Image"> &nbsp;AyurSiddhi</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav m-auto py-0">
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
+                    <a href="about.html" class="nav-item nav-link">ABOUT</a>
+                    <div class="nav-item dropdown">
+                        <a href="service.html" class="nav-link dropdown-toggle active" data-toggle="dropdown">SERVICES</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="" class="dropdown-item active">Ayurvedic Treatments</a>
+                            <a href="ayurvedicmassage.html" class="dropdown-item">Ayurvedic Massage</a>
+                            <a href="consultation.html" class="dropdown-item">Ayurvedic Consultation</a>
+                            <!-- <a href="price.html" class="dropdown-item">Pricing</a> -->
+                            <!-- <a href="testimonial.html" class="dropdown-item">Testimonial</a> -->
+                        </div>
+                    </div>
+                    <!-- <a href="blog.html" class="nav-item nav-link">BLOG</a> -->
+                    <a href="contact.html" class="nav-item nav-link">CONTACT</a>                                                     
+                </div>
+                <a href="" class="btn btn-primary d-none d-lg-block">Book Now</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <!-- <ol class="carousel-indicators">
+                <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#header-carousel" data-slide-to="1"></li>
+                <li data-target="#header-carousel" data-slide-to="2"></li>
+            </ol> -->
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="min-height: 100vh;">
+                    <img class="position-absolute w-100 h-100" src="img/Netra-Tarpanam.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <!-- <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown" style="letter-spacing: 3px;">Healing naturally, the Ayurveda way</h6> -->
+                            <!-- <p class="mx-md-5 px-5">Ayurveda teaches us to live in harmony with ourselves, others, and the environment to achieve true well-being.</p> -->
+                            <!-- <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Make Appointment</a> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="carousel-item position-relative" style="min-height: 100vh;">
+                    <img class="position-absolute w-100 h-100" src="img/back-2.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 1000px;">
+                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown" style="letter-spacing: 3px;">Healing naturally, the Ayurveda way</h6>
+                            <h3 class="display-3 text-capitalize text-white mb-3">Ayurveda is the conquer of all diseases</h3>
+                            <p class="mx-md-5 px-5">May everyone be happy and free from illness And see good prosperity or good fortune.</p>
+                            <!-- <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Make Appointment</a> -->
+                        <!-- </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" style="min-height: 100vh;">
+                    <img class="position-absolute w-100 h-100" src="img/back-3.png" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown" style="letter-spacing: 3px;">Healing naturally, the Ayurveda way</h6>
+                            <h3 class="display-3 text-capitalize text-white mb-3">Unpacking Ayurveda is a new luxury</h3>
+                            <p class="mx-md-5 px-5">Nature provides us with an abundance of healing food. Accept them and let nature be your medicine.</p>
+                            <!-- <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp" href="#">Make Appointment</a> -->
+                        <!-- </div>
+                    </div>
+                </div>  -->
+            </div>
+        </div>
+        <div class="page-header">
+            <h1 class="Text_header ">AKSHITARPAN THERAPY </h1>
+          </div>  
+
+          <div class="container_treat  bg-light m-1 p-5 ">
+       
+            <div> &nbsp;
+                <p>Askhi means eyes and tarpan means nourishment, giving strength to the eyes.</p>
+                <p> Akshi Tarpana, also known as Netra Vasti, is a process of keeping medicated ghee or oil on the eyes for a certain period of time.It is the best purification and rejuvenation process of eye and other sense organs. In healthy individuals it is carried out to protect the eyes from degeneration due to the aging process and to improve the vision in the diseased person.
+                    Akshi tarpan is one of the specialized treatments for various eye disorders. Akshi tarpan acts as a preventative and curative medical aid for maintaining perfect health. Akshi tarpan is a procedure where a warm medicated ghee (clarified butter) is made to stay stagnant within the eyes for a speculated time in a specific formed frame.
+                </p>
+            </div>
+            &nbsp;
+            <div class="container">
+                <div >
+                  <h2 class="text-middle">Benefits of the Treatment</h2>
+                </div>
+            </div> &nbsp;
+            <div>
+                <p>A few benefits of Panchakarma Treatment are:</p>
+                <ul>
+                    <li>
+                        It is said to be an excellent treatment to improve blurred vision. </li>
+                    <li>
+                        Removes dark circles beneath the eyes.
+                    </li>
+                    <li>
+                        Revitalises and rejuvenates tired, dry, rough and injured eyes.
+                    </li>
+                    <li>
+                        Reduces burning sensation.
+                   </li>
+                   <li>
+                    Strengthens the nerves and muscles of the eyes.
+                   </li>
+                </ul>
+        
+                <p>Recommended for:</p>
+                <ul>
+                    <li> Burning in the eyes </li>
+                    <li>Dry eye syndrome  </li>
+                    <li>  Conjunctivitis</li>
+                        <li>  Pain in the eyes</li>
+                            <li>  Watering and cloudiness of the eyes</li>
+                                <li>  Refractive errors of the eyes.</li>                      
+        
+            </div>   
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+     <!-- Footer Start -->
+     <div class="footer container-fluid position-relative bg-dark py-5" style="margin-top: 90px;">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6 pr-lg-5 mb-5">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="mb-3 text-white"><span class="text-primary">AyurSiddhi</span> Clinic</h1>
+                    </a>
+                    <p>Ayurveda teaches us to live in harmony with ourselves, others, and the environment to achieve true well-being.<br>
+                    AyurSiddhi is to serve your health needs with the best ayurvedic treatments.</p>
+                    <div id="map" style="height: 300px; width: 100%;"></div>
+
+                </div>
+                <div class="col-lg-6 pl-lg-5">
+                    <div class="row">
+                        <div class="col-sm-6 mb-5">
+                            <h5 class="text-white text-uppercase mb-4"><i class="fa fa-phone-alt mr-2"></i>9137971328</h5>
+                            <div class="d-flex flex-column justify-content-start">
+                                <p><i class="fa fa-envelope mr-2"></i> ayursiddhi3@gmail.com <br></p>
+
+                                   <p><i class="fa fa-map-marker-alt mr-2"></i> 3rd floor,Commerce Centre Premises,Tandon Road<br>Above IDBI Bank,Near Thakur Hall<br>Dombivli(E) 421201</p>
+                                   <div class="d-flex justify-content-start mt-4">
+                                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a class="btn btn-lg btn-primary btn-lg-square" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-5">
+                            <h5 class="text-white text-uppercase mb-lg-0">&nbsp;Quick Links</h5>
+                            <div class="d-flex flex-column justify-content-start">
+                                <a class="text-white-50 mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                                <a class="text-white-50 mb-2" href="about.html"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                                <a class="text-white-50 mb-2" href="service.html"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
+                               
+                                <a class="text-white-50" href="contact.html"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                            </div>
+                        </div>
+                        <!-- <div class="col-sm-12 mb-5">
+                            <h5 class="text-white text-uppercase mb-4">Newsletter</h5>
+                            <div class="w-100">
+                                <div class="input-group">
+                                    <input type="text" class="form-control border-light" style="padding: 30px;" placeholder="Your Email Address">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary px-4">Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-light border-top py-4" style="border-color: rgba(256, 256, 256, .15) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="m-0 text-white">&copy; <a href="#">AyurSiddhiClinic</a>.All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0 text-white">Designed by <a href="https://htmlcodex.com">Something New</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
